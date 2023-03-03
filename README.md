@@ -2,11 +2,11 @@
 
 1. Clone repo
 
-2. Install dependencies: `yarn install`
+2. Install dependencies: `yarn install` or `npm install`
 
 3. Clone `.env.example` file content into a `.env` and then add values to the environment variables
 
-4. Run app `yarn dev`(Run backend app before this)
+4. Run app `yarn dev` or `npm run dev` (Run backend app before this)
 
 5. If you seed the backend app, you can use these credentials:
 
