@@ -89,8 +89,8 @@ export const TasksTable = ({
           <TableRow>
             <TableCell>Título</TableCell>
             <TableCell>Descripción</TableCell>
-            <TableCell>Estado</TableCell>
-            <TableCell>Usuario</TableCell>
+            <TableCell align="right">Estado</TableCell>
+            <TableCell align="right">Usuario</TableCell>
             <TableCell align="right">Opciones</TableCell>
           </TableRow>
         </TableHead>
@@ -113,7 +113,7 @@ export const TasksTable = ({
                 <TableCell component="th" scope="row">
                   {row.title}
                 </TableCell>
-                <TableCell align="right">{row.description}</TableCell>
+                <TableCell>{row.description}</TableCell>
                 <TableCell align="right">
                   <FormControl fullWidth variant="standard" size="medium">
                     <Select
